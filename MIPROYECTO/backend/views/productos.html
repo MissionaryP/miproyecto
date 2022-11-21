@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Agregar productos</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="C:\Users\Pablo\Documents\NetBeansProjects\MIPROYECTO\assets\css\estilos.css">
+    </head>
+    <body>
+        <form method="post" id="formulario_productos">
+            <h2><b>Formulario de alta y baja de productos</b> </h2>
+            <p>
+                <LABEL for="nombre">ID Producto: </LABEL>
+                          <INPUT type="text" id="producto"><BR>
+                <LABEL for="nombre">Nombre del producto: </LABEL>
+                          <INPUT type="text" id="descripcion"><BR>
+                <LABEL for="apellido">Descripcion: </LABEL>
+                          <INPUT type="text" id="precio"><BR>
+                <LABEL for="categoria">Categoria: </LABEL>
+                          <INPUT type="text" id="categoria"><BR>
+            </p>
+            <button onclick="validar()" type="submit" name="Guardar">Guardar</button> <button type="submit" name="Cancelar">Cancelar</button>
+        </form>
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="C:\Users\Pablo\Documents\NetBeansProjects\MIPROYECTO\assets\js\validaciones.js"></script>
+    </body>
+</html>

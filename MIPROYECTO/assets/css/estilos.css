@@ -1,0 +1,27 @@
+body{
+    background-color: white;
+}
+
+form{
+    background: darkgray
+}
+
+h2{
+    background-color: darkgray;
+    color:darkblue;
+    font-family: calibri;
+    font-size: 20px;
+}
+
+button{
+    color: darkgoldenrod;
+    border-style: double;
+}
+
+label{
+    color:blanchedalmond;
+}
+
+div{
+    color:blanchedalmond;
+}
